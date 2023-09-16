@@ -1,0 +1,57 @@
+{
+    "name": "𝐒𝐑 𝐌𝐔𝐒𝐈𝐂 𝄞",
+    "description": "سـورس ميـوزك 𝐒𝐑 الجـديـد كليـاً (قنـاة السـورس - @SR_Music) & (مطـور السـورس - @Y_H_E)",
+    "logo": "https://graph.org/file/6270c9db2449eab390115.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Zelzal",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "لا تغيرهــا",
+        "value": "27455984",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "لا تغيرهــا",
+        "value": "62d5f68ce2e9189636967120220f5755",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضـع تـوكـن بـوتـك هـنـا",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ضـع ايـديـك هـنـا",
+        "value": "",
+        "required": true
+      },
+      "SESSION": {
+        "description": "ضـع كـود جلسـة بايـروجـرام v² احصـل عليـه مـن هنـا @T66bot",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "ضـع ايـدي الـحـسـاب الـمـسـاعـد",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
